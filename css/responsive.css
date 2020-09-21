@@ -1,0 +1,1429 @@
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        /*background-color: tomato;*/
+    }
+    /* beautypress btn */
+    .beautypress-btn {
+        padding: 15px 35px;
+    }
+    /* get appointment */
+    .beautypress-booking-text-wraper .beautypress-border.beautypress-version-3 {
+        width: calc(100% - 100px);
+    }
+    /* about version 5 */
+    .beautypress-sub-heading.beautypress-watermark-title.beautypress-version-2 h2 {
+        font-size: 3.286em;
+    }
+    .beautypress-border-with-text-wrap {
+        padding: 45px 0 45px 35px;
+    }
+    .beautypress-border.beautypress-version-1 {
+        width: calc(100% - 100px);
+    }
+    /* team page */
+    /* team */
+    .beautypress-team-group-v3 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .beautypress-team-group-v3 .beautypress-team-col-v3 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+        flex: 1 0 50%;
+        width: 50%;
+        margin: 0 0 30px;
+        text-align: center;
+    }
+    /* nav bar */
+    .beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo {
+        max-width: 155px;
+    }
+    .beautypress-version-2.beautypress-logo:after {
+        border-left: 77.5px solid transparent;
+        border-right: 77.5px solid transparent;
+        border-top: 40px solid var(--color-white);
+    }
+}
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) {
+    body {
+        /*background-color: yellow;*/
+        font-size: 16px;
+    }
+    /* header */
+    .navbar-brand {
+        float: right;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+    .beautypress-main-header .navbar {
+        text-align: right;
+    }
+    .beautypress-main-header .navbar-toggler {
+        margin: 20px 0;
+        padding: 0;
+        font-size: 1em;
+        width: 100%;
+        line-height: 0;
+        cursor: pointer;
+        position: relative;
+    }
+    .beautypress-version-2.beautypress-logo,
+    .beautypress-logo.beautypress-version-3,
+    .beautypress-header-section.beautypress-header-version-2 .beautypress-logo-wraper .beautypress-logo {
+        display: none;
+    }
+    .beautypress-header-section.beautypress-header-version-3.beautypress-header-version-4 .nav-side-logo {
+        top: -20px;
+    }
+    .nav-side-logo {
+        top: -17px;
+    }
+    .nav-side-logo .beautypress-logo {
+        top: 0;
+        min-height: 57px;
+        min-width: 140px;
+        display: block;
+        padding: 0 !important;
+        box-shadow: none;
+    }
+    /* menu */
+    .beautypress-header-section.beautypress-version-1 .beautypress-logo img {
+        height: 48px;
+        width: auto;
+    }
+    .beautypress-header-section.beautypress-version-1 .beautypress-logo {
+        min-height: auto;
+        min-width: auto;
+        max-width: none;
+        max-height: none;
+        padding: 6px 0;
+    }
+    .beautypress-header-section.beautypress-version-1 .nav-toggle {
+        /*margin-top: 10px;*/
+        margin-top: 0;
+        transform: translateY(-50%);
+    }
+    .beautypress-version-2.beautypress-logo:after {
+        display: none;
+    }
+    .beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo img {
+        padding: 0;
+    }
+    .xs-navigation-middle-menu.xs_nav-portrait .xs-row,
+    .beautypress-mega-menu.xs_nav-portrait .xs-row {
+        flex-direction: column;
+    }
+    .beautypress-extra-css .beautypress-main-header nav li a {
+        padding: 12px 15px 12px 26px;
+    }
+    .xs-row .xs-col-5 {
+        width: 100%;
+    }
+    .xs-row .xs-col-2 {
+        width: 100%;
+    }
+    .xs-row .xs-col-9 {
+        width: 100%;
+    }
+    .xs-row .xs-col-3 {
+        width: 100%;
+    }
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-main-header .beautypress-mega-menu .beautypress-btn-wraper {
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
+    .xs-navigation-middle-menu .nav-menus-wrapper-close-button {
+        margin: 0 0 0 auto;
+    }
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-main-header .beautypress-mega-menu .nav-menus-wrapper-close-button {
+        margin: 0 0 0 auto;
+    }
+    .beautypress-header-section .xs-navigation-middle-menu.xs_nav-portrait .nav-toggle {
+        margin: 0;
+        transform: translateY(-50%);
+    }
+    /* mega menu */
+    .beautypress-main-header .megamenu-panel {
+        padding: 15px;
+        position: relative;
+    }
+    /* side by side image */
+    .beautypress-new-about-img-wraper:before,
+    .beautypress-new-about-img-wraper:after {
+        display: none;
+    }
+    /* new about text */
+    .beautypress-new-about-text-gruop {
+        padding: 0 55px 30px;
+    }
+    /* before after section */
+    .beautypress-before-after.twentytwenty-container {
+        margin: 0 0 30px;
+    }
+    /* our service */
+    .beautypress-video-side-text {
+        width: 100%;
+        padding: 0 0 30px;
+    }
+    .beautypress-vedio-section-with-text .beautypress-3d-project-card {
+        text-align: center;
+    }
+    /* booking section */
+    .beautypress-booking-text-wraper .beautypress-border.beautypress-version-3 {
+        margin: 0 auto 30px auto;
+    }
+    /* pricing */
+    .beautypress-single-pricing-table {
+        margin: 0 0 30px;
+    }
+    /* tab */
+    .beautypress-tab-text-content {
+        padding: 0;
+    }
+    .beautypress-tab .beautypress-tab-text-content h3 {
+        margin: 0 0 20px;
+    }
+    .beautypress-tab .beautypress-tab-text-content p {
+        margin: 0 0 15px;
+    }
+    /* team */
+    .beautypress-single-team {
+        margin: 0 0 30px;
+    }
+    /* news feeds */
+    .beautypress-single-newsletter {
+        margin: 0 0 30px;
+    }
+    /* footer */
+    .beautypress-subscribe-wraper {
+        width: 80%;
+    }
+    .beautypress-single-footer {
+        margin: 0 0 30px;
+    }
+    /* partners */
+    .beautypress-partner-text-content {
+        padding: 0;
+    }
+    /* index version 2 */
+    /* video section */
+    .beautypress-video-section {
+        padding: 150px 0;
+    }
+    /* service */
+    .beautypress-single-our-sevice {
+        margin: 0 0 30px;
+    }
+    /* how it work */
+    .beautypress-single-how-it-work {
+        margin: 0 0 80px;
+    }
+    /* shop call to action */
+    .beautypress-watermark-big-icon {
+        background-size: 100%;
+    }
+    /* our products */
+    .beautypress-product-group {
+        margin: 0 0 30px;
+    }
+    /* beautypress simple text */
+    .beautypress-simple-text-with-img-section .beautypress-simple-img-wraper {
+        margin: 0;
+    }
+    .beautypress-simple-text-with-img-section .beautypress-simple-text {
+        margin: 0 0 30px;
+        padding: 0;
+    }
+    .beautypress-simple-text-with-img-section-v2 .beautypress-simple-img-wraper {
+        margin: 0 0 30px;
+    }
+    .beautypress-simple-text-with-img-section-v2 .beautypress-simple-text {
+        padding: 0;
+        margin: 0;
+    }
+    /* welcome */
+    .beautypress-welcome-section.beautypress-welcome-version-2 .beautypress-welcome-container {
+        width: 80.666667%;
+    }
+    .beautypress-welcome-section.beautypress-welcome-version-2 .beautypress-welcome-wraper:before {
+        height: calc(100% - 26px);
+    }
+    /* copyright content */
+    .beautypress-copyright-text p {
+        line-height: inherit;
+    }
+    /*=========================== index version 3 ===================*/
+    /*counter up*/
+    .beautypress-single-fun-factory:before {
+        top: 0;
+        font-size: 6em;
+    }
+    .beautypress-single-fun-factory {
+        margin: 0 0 40px;
+    }
+    .beautypress-fun-factory-section {
+        padding: 100px 0;
+    }
+    /* pricing */
+    .beautypress-single-pricing-table.beautypress-version-3 .beautypress-pricing-header img {
+        width: auto;
+    }
+    /* welcome */
+    .beautypress-welcome-section.beautypress-welcome-version-3 .beautypress-welcome-container {
+        width: 90%;
+    }
+    /*==================== index version 4 =====================*/
+    /* our feature */
+    .beautypress-single-our-feature {
+        margin: 0 0 30px;
+    }
+    /*========================== index version 5 =====================================*/
+    /* video pop up section */
+    .beautypress-video-popup-content {
+        margin: 0 0 40px;
+    }
+    /* intro video section */
+    .beautypress-video-section.beautypress-version-2:before {
+        display: none;
+    }
+    /* best features slider */
+    .beautypress-best-features-wraper {
+        padding: 0 0 50px;
+    }
+    /* clients review */
+    .beautypress-best-reviewr-avator-wraper {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .beautypress-best-reviewr-avator {
+        text-align: center;
+    }
+    /* call to action */
+    .beautypress-call-to-action-content-v2 {
+        padding: 0;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .beautypress-call-to-action-v2 .beautypress-btn-wraper {
+        padding: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    /* about version 5 */
+    .beautypress-sub-heading.beautypress-watermark-title.beautypress-version-2 h2 {
+        font-size: 2.286em;
+    }
+    .beautypress-about-section-v2 .beautypress-about-us-img {
+        margin: 0 0 30px;
+    }
+    .beautypress-about-section .beautypress-simple-img-wraper {
+        margin: 30px 0 0;
+    }
+    /* contact */
+    .beautypress-contact-wraper.beautypress-version-1 {
+        padding: 0;
+    }
+    .beautypress-contact-details {
+        margin: 0 0 30px
+    }
+    .beautypress-contact-form {
+        padding: 20px;
+    }
+    /* contact version 3  */
+    .beautypress-contact-wraper.beautypress-version-2 {
+        padding: 0;
+    }
+    .beautypress-contact-wraper.beautypress-version-2 .beautypress-contact-form {
+        padding: 27px 10px;
+    }
+    /* 404 page */
+    .beautypress-404-content h2:before {
+        top: 50%;
+        height: auto;
+        font-size: .700em;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .icon-404 {
+        display: block;
+    }
+    /* comming soon */
+    .beautypress-comming-soon-content.center-content {
+        width: 100%;
+    }
+    .beautypress-comming-soon-section.beautypress-version-2 .beautypress-comming-soon-text h2,
+    .beautypress-comming-soon-section.beautypress-version-2 .beautypress-comming-soon-text h3 {
+        font-size: 2.286em;
+    }
+    .beautypress-comming-soon-section.beautypress-version-2 .beautypress-subscribe-wraper {
+        width: 100%;
+    }
+    /* pricing html */
+    .beautypress-pricing-table-section.beautypress-version-6 .beautypress-beauty-product-hover-content {
+        bottom: 6px;
+    }
+    .beautypress-single-pricing-table-txt {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    .beautypress-single-new-pricing-wraper {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .beautypress-single-new-pricing.beautypress-pricing-header,
+    .beautypress-single-new-pricing.beautypress-pricing-content,
+    .beautypress-single-new-pricing.beautypress-pricing-footer {
+        padding: 20px;
+    }
+    .beautypress-single-new-pricing.beautypress-pricing-content {
+        grid-gap: 10px;
+    }
+    /* sponsor */
+    .beautypress-clients-wraper.no-slider .beautypress-clients-group {
+        -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .beautypress-partner-text-content.beautypress-version-2 {
+        margin: 30px 0 0;
+    }
+    .beautypress-subscribe-wraper.beautypress-version-5 input:not([type="submit"]) {
+        width: calc(100% - 210px);
+    }
+    /* team */
+    .beautypress-team-group-v3 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .beautypress-team-group-v3 .beautypress-team-col-v3 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+        flex: 1 0 100%;
+        width: 100%;
+        margin: 0 0 30px;
+        text-align: center;
+    }
+    .beautypress-team-group-v3 .beautypress-team-col-v3 .hover .beautypress-team-content-v3 {
+        left: 45%;
+    }
+    .beautypress-team-content-v3 {
+        width: 45%;
+    }
+    /* menu skew */
+    .menu-skew {
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+        will-change: unset;
+    }
+    .menu-skew.swingInX {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform-origin: unset;
+        transform-origin: unset;
+    }
+    .menu-skew.swingOutX {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform-origin: unset;
+        transform-origin: unset;
+    }
+    .beautypress-header-section.navbar-fixed {
+        -webkit-perspective: none !important;
+        perspective: none !important;
+        -webkit-transform-style: unset !important;
+        transform-style: unset !important;
+    }
+    .beautypress-main-header nav li a:before {
+        display: none;
+    }
+    /* product-details.html */
+    .beautypress-woocommerce-tabs .nav-tabs li a {
+        padding: 16px 15px;
+    }
+    .beautypress-add-to-chart-form .w-quantity-btn,
+    .beautypress-add-to-chart-form .beautypress-wishlist {
+        margin: 15px 0;
+    }
+    .beautypress-add-to-chart-form,
+    .beautypress-add-to-chart-form form {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .beautypress-add-to-chart-form .beautypress-wishlist {
+        margin: 0;
+    }
+    /* portfolio-single.html */
+    .beautypress-next-prev-wraper {
+        margin: 30px 0;
+    }
+    /* cart.html */
+    .beautypress-cart table.shop_table td {
+        padding: 10px 5px;
+    }
+    .beautypress-cart .coupon {
+        width: 70%;
+    }
+    .beautypress-cart .cart-collaterals {
+        width: 90%;
+    }
+    .beautypress-new-header.xs-extra-css .xs_nav-portrait {
+        height: 88px;
+    }
+    .beautypress-new-header.xs-extra-css .xs_nav-portrait .nav-toggle {
+        transform: translateY(-50%);
+    }
+    .beautypress-header-section.beautypress-version-1 .beautypress-logo {
+        min-height: auto;
+        min-width: auto;
+        max-width: none;
+        max-height: none;
+        padding: 17px 10px;
+        top: 0;
+    }
+    .beautypress-header-section.beautypress-header-version-4 .nav-header .xs-nav-logo {
+        display: block;
+        float: left;
+        padding: 6px 0;
+    }
+    .beautypress-header-section.beautypress-header-version-4 .nav-header {
+        width: 100%;
+    }
+    .beautypress-header-top,
+    .xs-navigation-middle-menu .xs-row .xs-col-2 {
+        display: none;
+    }
+    .xs_nav-portrait .nav-menus-wrapper {
+        left: -100%;
+        width: 320px;
+    }
+    .beautypress-team-wraper:before {
+        display: none;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .nav-header a {
+        max-width: 200px;
+    }
+    /* padding section and padding bottom */
+    .beautypress-padding-bottom {
+        padding: 0 0 60px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .beautypress-section-headinig {
+        padding: 80px 0 60px 0;
+    }
+    /* beautypress btn */
+    .beautypress-btn-wraper a {
+        margin: 0 10px 0 0;
+    }
+    .beautypress-btn {
+        padding: 15px 22px;
+        font-size: .9em;
+    }
+    /* section heading */
+    .beautypress-section-headinig h3 {
+        font-size: 2.0em;
+    }
+    /* social icon main version */
+    .beautypress-social-list li a {
+        height: 36px;
+        width: 36px;
+    }
+    /* inner page welxome section */
+    .beautypress-inner-welcome-content h1 {
+        word-break: break-all;
+    }
+    /* header area */
+    /* main menu */
+    .navbar-brand {
+        float: right;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+    .beautypress-main-header .navbar {
+        text-align: right;
+    }
+    .beautypress-main-header .navbar-toggler {
+        margin: 20px 0;
+        padding: 0;
+        font-size: 1em;
+        width: 100%;
+        line-height: 0;
+        cursor: pointer;
+        position: relative;
+    }
+    .beautypress-version-2.beautypress-logo,
+    .beautypress-logo.beautypress-version-3,
+    .beautypress-header-section.beautypress-header-version-2 .beautypress-logo-wraper .beautypress-logo {
+        display: none;
+    }
+    .beautypress-main-header .megamenu-panel {
+        padding: 15px;
+        position: relative;
+    }
+    .xs_nav-portrait .megamenu-panel {
+        position: relative;
+        z-index: 1;
+    }
+    .xs-navigation-middle-menu.xs_nav-portrait .xs-row,
+    .beautypress-mega-menu.xs_nav-portrait .xs-row {
+        flex-direction: column;
+    }
+    .xs-row .xs-col-5 {
+        width: 100%;
+    }
+    .xs-row .xs-col-2 {
+        width: 100%;
+    }
+    .xs-row .xs-col-9 {
+        width: 100%;
+    }
+    .xs-row .xs-col-3 {
+        width: 100%;
+    }
+    .xs-navigation-middle-menu .nav-menus-wrapper-close-button {
+        margin: 0 0 0 auto;
+    }
+    .beautypress-header-section .xs-navigation-middle-menu.xs_nav-portrait .nav-toggle {
+        margin: 0;
+        transform: translateY(-50%);
+    }
+    .beautypress-header-section.beautypress-version-1 .nav-toggle {
+        /*margin-top: 24px;*/
+    }
+    .beautypress-header-section.beautypress-header-version-2 .beautypress-new-header .nav-toggle {
+        margin: 0;
+    }
+    /* nav side logo */
+    .nav-side-logo .beautypress-logo {
+        top: 0;
+        min-height: 57px;
+        min-width: 140px;
+        display: block;
+        padding: 0 !important;
+    }
+    .nav-side-logo {
+        top: -17px;
+    }
+    .nav-side-logo .beautypress-logo:after {
+        display: none;
+    }
+    .nav-side-logo .beautypress-logo img {
+        height: inherit;
+        padding: 5px;
+    }
+    /* nav side icon */
+    .beautypress-nav-search-button {
+        text-align: left;
+    }
+    /* mega menu logo*/
+    .beautypress-logo {
+        padding: 0;
+        box-shadow: none;
+        top: 41px;
+    }
+    .beautypress-header-section.beautypress-version-1 .beautypress-logo img {
+        height: 48px;
+        width: auto;
+    }
+    .beautypress-extra-css .beautypress-main-header nav li a {
+        padding: 12px 15px 12px 26px;
+    }
+    /* mega menu */
+    .beautypress-header-section .nav-toggle {
+        margin-top: 0;
+        transform: translateY(-50%);
+    }
+    .beautypress-header-section.beautypress-header-version-3.beautypress-header-version-5 .nav-toggle {
+        right: inherit;
+        left: 0;
+        margin: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-main-header .beautypress-spilit-container .beautypress-btn-wraper {
+        width: 100%;
+    }
+    /* welcome section */
+    .beautypress-welcome-container,
+    .beautypress-welcome-section.beautypress-welcome-version-5 .beautypress-welcome-container {
+        width: 100%;
+    }
+    .beautypress-welcome-container h3 {
+        font-size: 4.000em;
+    }
+    /* about text content */
+    .beautypress-new-about-text-gruop {
+        padding: 0 0 30px 55px;
+    }
+    .beautypress-new-about-text-gruop .beautypress-sub-heading.beautypress-watermark-title h2 {
+        font-size: 3.5em;
+    }
+    .beautypress-new-about-img-wraper:before,
+    .beautypress-new-about-img-wraper:after {
+        display: none;
+    }
+    /* before after section */
+    .twentytwenty-container.beautypress-before-after {
+        margin: 0 0 30px;
+    }
+    .beautypress-simple-text.beautypress-version-2 {
+        padding: 0 10px;
+    }
+    /* beauttypress simple list */
+    .beautypress-simple-iocn-list {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+    }
+    .beautypress-simple-iocn-list.beautypress-version-2 ul {
+        padding: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        -ms-grid-row-align: flex-start;
+        align-items: flex-start;
+    }
+    .beautypress-simple-iocn-list.beautypress-version-2 ul li {
+        margin: 0 0 12px 0;
+        padding: 0;
+    }
+    .beautypress-simple-iocn-list.beautypress-version-2 ul li:last-child {
+        margin: 0;
+    }
+    .beautypress-video-side-text {
+        width: 100%;
+        padding: 0 0 30px;
+        margin: 0;
+    }
+    /* booking section  */
+    .beautypress-booking-text-wraper .beautypress-border.beautypress-version-3 {
+        width: 100%;
+    }
+    .beautypress-booking-text {
+        width: 100%;
+    }
+    .beautypress-booking-form-wraper .beautypress-spilit-container {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+    }
+    /* gallery */
+    .beautypress-photo-gallery-grid-item {
+        width: 100% !important;
+    }
+    /* pricing table */
+    .beautypress-single-pricing-table {
+        margin: 0 0 30px;
+    }
+    /* Date picker issue */
+    .datepicker-dropdown.dropdown-menu {
+        position: absolute;
+    }
+    /* tabs */
+    .beautypress-tab .beautypress-top-nav li a i {
+        display: none;
+    }
+    .beautypress-tab .beautypress-top-nav li,
+    .beautypress-tab .beautypress-top-nav li a {
+        min-height: 50px;
+    }
+    .beautypress-tab .beautypress-top-nav li a {
+        padding: 0 20px;
+    }
+    .beautypress-tab .nav.nav-tabs.beautypress-top-nav li {
+        margin: 0 15px 15px 0;
+    }
+    .beautypress-tab .beautypress-top-nav {
+        padding: 0 0px 15px;
+    }
+    .beautypress-tab .tab-content .tab-pane .tabbable {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .beautypress-tab .beautypress-side-nav {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+    .beautypress-tab .tab-pane .tabbable .tab-content {
+        width: 100%;
+    }
+    .beautypress-tab .beautypress-spilit-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .beautypress-tab .beautypress-tab-image {
+        margin: 0;
+        width: 100%;
+    }
+    .beautypress-tab-text-content {
+        padding: 30px;
+        width: 100%;
+    }
+    /* call to action */
+    .beautypress-call-to-action-content {
+        padding: 100px 0;
+    }
+    /* team */
+    .beautypress-single-team {
+        margin: 0 0 30px;
+    }
+    /* news feeds */
+    .beautypress-single-newsletter {
+        margin: 0 0 30px;
+    }
+    /* partners */
+    .beautypress-partner-text-content {
+        padding: 0 15px 0 15px;
+        margin: 0 0 40px;
+    }
+    .beautypress-partner-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .beautypress-partner-list li:before,
+    .beautypress-partner-list li:after {
+        display: none;
+    }
+    /* footer */
+    .beautypress-subscribe-wraper {
+        width: 100%;
+    }
+    .beautypress-single-footer {
+        margin: 0 0 30px;
+    }
+    /* copyright content */
+    .beautypress-copyright-text p {
+        line-height: inherit;
+    }
+    /*========= index version 2 ===========*/
+    /* section heading */
+    .beautypress-section-headinig.beautypress-watermark-title h2:before {
+        font-size: 1em;
+        top: -3px;
+    }
+    /* header */
+    .beautypress-header-section.beautypress-header-version-2 .beautypress-header-top .beautypress-spilit-container,
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-header-top .beautypress-spilit-container {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .beautypress-header-section.beautypress-header-version-2 .beautypress-header-top .beautypress-simple-iocn-list {
+        margin: 0 0 10px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .beautypress-header-section.beautypress-header-version-2 .beautypress-language-select-list,
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-language-select-list {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    /* welcome */
+    .beautypress-welcome-section.beautypress-welcome-version-2 .beautypress-welcome-container {
+        width: 100%;
+    }
+    .beautypress-welcome-section.beautypress-welcome-version-2 .beautypress-welcome-wraper {
+        padding: 30px 30px 0;
+    }
+    .beautypress-welcome-section.beautypress-welcome-version-2 .beautypress-welcome-wraper:before {
+        height: calc(100% - 23px);
+    }
+    /* beautypress simple text */
+    .beautypress-simple-text-with-img-section .beautypress-simple-img-wraper {
+        margin: 0;
+    }
+    .beautypress-simple-text-with-img-section .beautypress-simple-text {
+        margin: 0 0 30px;
+        padding: 0;
+    }
+    .beautypress-simple-text-with-img-section-v2 .beautypress-simple-img-wraper {
+        margin: 0 0 30px;
+    }
+    .beautypress-simple-text-with-img-section-v2 .beautypress-simple-text {
+        padding: 0;
+        margin: 0;
+    }
+    /* product gallery */
+    .beautypress-product-group {
+        margin: 0 0 30px;
+    }
+    /* call to action */
+    .beautypress-shop-call-to-action-content {
+        width: 100%;
+    }
+    .beautypress-shop-call-to-action-content .beautypress-spilit-container {
+        grid-column-gap: 10px;
+    }
+    .beautypress-watermark-big-icon {
+        background-size: 100%;
+    }
+    /* how it works */
+    .beautypress-single-how-it-work {
+        margin: 0 0 80px;
+    }
+    /* video section */
+    .beautypress-video-section {
+        padding: 100px 0;
+    }
+    /* service section */
+    .beautypress-single-our-sevice {
+        margin: 0 0 30px;
+    }
+    /* testimonial */
+    .beautypress-single-testimonial {
+        width: 90%;
+    }
+    /* footer */
+    .beautypress-subscribe-wraper.beautypress-version-2 {
+        width: 100%;
+    }
+    .beautypress-subscribe-wraper.beautypress-version-2 h3 {
+        line-height: inherit;
+    }
+    .beautypress-footer-section.beautypress-version-2 .beautypress-copyright-text {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .beautypress-footer-section.beautypress-version-2 .beautypress-footer-social {
+        text-align: center;
+    }
+    /*==================== index version 3 =====================*/
+    /* welcome */
+    .beautypress-welcome-section.beautypress-welcome-version-3 .beautypress-welcome-container {
+        width: 100%;
+    }
+    /* header */
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-main-header {
+        background-color: var(--color-white);
+    }
+    .beautypress-address-element {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 10px 0 0;
+    }
+    /* pricing */
+    .beautypress-single-pricing-table.beautypress-version-3 .beautypress-pricing-header img {
+        width: auto;
+    }
+    /*counter up*/
+    .beautypress-single-fun-factory:before {
+        top: 0;
+        font-size: 6em;
+    }
+    .beautypress-single-fun-factory {
+        margin: 0 0 40px;
+    }
+    .beautypress-fun-factory-section {
+        padding: 100px 0;
+    }
+    /*==================== index version 4 =====================*/
+    .beautypress-header-section.beautypress-header-version-3 .beautypress-header-top .beautypress-simple-iocn-list {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    /* our feature */
+    .beautypress-single-our-feature {
+        margin: 0 0 30px;
+    }
+    /*========================== index version 5 =====================================*/
+    /* beauty product */
+    .beautypress-single-beauty-product {
+        margin: 0 0 40px;
+    }
+    /* video pop up section */
+    .beautypress-video-popup-content-inner {
+        margin: 25px 0 0 35px;
+    }
+    .beautypress-video-popup-content .beautypress-border.beautypress-version-2:before {
+        top: -30px;
+        left: -30px;
+    }
+    .beautypress-video-popup-content {
+        margin: 0 0 40px;
+    }
+    /* intro video section */
+    .beautypress-video-section.beautypress-version-2:before {
+        display: none;
+    }
+    .beautypress-video-section.beautypress-version-2 .beautypress-video-section-content h2 {
+        font-size: 1.857em;
+        line-height: inherit;
+    }
+    /* best features slider */
+    .beautypress-best-features-wraper {
+        padding: 0 0 50px;
+    }
+    .beautypress-image-slider .owl-stage-outer:before {
+        top: -60px;
+        left: 60px;
+    }
+    /* clients review */
+    .beautypress-best-reviewr-avator-wraper {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .beautypress-best-reviewr-avator {
+        text-align: center;
+    }
+    /* call to action */
+    .beautypress-call-to-action-content-v2 {
+        padding: 0;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .beautypress-call-to-action-v2 .beautypress-btn-wraper {
+        padding: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    /* new menu style */
+    .beautypress-new-header .xs_nav_2 .nav-logo>img {
+        padding: 0;
+    }
+    .beautypress-new-header .xs_nav_2 .nav-search {
+        padding: 0;
+    }
+    .beautypress-new-header .xs_nav_2 .nav-toggle {
+        /*margin-top: 20px;*/
+    }
+    .beautypress-header-section.beautypress-header-version-2 .xs_nav_2.xs_nav-portrait {
+        height: auto;
+        padding: 15px 0;
+        min-height: 80px;
+    }
+    /* about.html */
+    .beautypress-simple-img-wraper {
+        margin: 30px 0 0;
+    }
+    /* about version 2 */
+    .beautypress-single-square-service-content {
+        margin: 0 0 60px;
+    }
+    /* inner welcome section */
+    .beautypress-inner-welcome-content {
+        width: 100%;
+    }
+    /* about version 5 */
+    .beautypress-simple-text-with-img-section.beautypress-simple-text-with-img-section-v3 .beautypress-simple-text.beautypress-watermark-icon:before {
+        display: none;
+    }
+    /* video with text */
+    .beautypress-border-with-text-wrap {
+        padding: 45px 0 45px 35px;
+    }
+    .beautypress-border.beautypress-version-1 {
+        width: 100%;
+    }
+    .beautypress-sub-heading.beautypress-watermark-title.beautypress-version-2 h2 {
+        font-size: 2.286em;
+    }
+    .beautypress-about-section-v2 .beautypress-about-us-img {
+        margin: 0 0 30px;
+    }
+    /* blog post */
+    .beautypress-blog-post-group .beautypress-spilit-container {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .beautypress-simple-title {
+        margin: 0 0 30px;
+    }
+    .beautypress-footer-social.text-right {
+        text-align: center !important;
+    }
+    .beautypress-replay-form-wraper .form-group {
+        margin: 0 0 30px;
+    }
+    .beautypress-single-replay {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .beautypress-single-replay.beautypress-replay {
+        padding: 0 0 0 45px;
+    }
+    .beautypress-replay-name,
+    .beautypress-replayer-img {
+        margin: 0 0 20px;
+    }
+    .beautypress-replay-time {
+        text-align: left;
+    }
+    /* contact */
+    .beautypress-contact-wraper.beautypress-version-1 {
+        padding: 0;
+    }
+    .beautypress-contact-details {
+        margin: 0 0 30px
+    }
+    .beautypress-contact-form {
+        padding: 20px;
+    }
+    .beautypress-contact-form .beautypress-spilit-container {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* contact version 2 */
+    .beautypress-subscribe-wraper.beautypress-version-3 {
+        padding: 10px;
+    }
+    /* contact version 3  */
+    .beautypress-contact-wraper.beautypress-version-2 {
+        padding: 0;
+    }
+    .beautypress-contact-wraper.beautypress-version-2 .beautypress-contact-form {
+        padding: 27px 10px;
+    }
+    /* call to action html */
+    .beautypress-call-to-action-section.beautypress-version-3 .beautypress-call-to-action-content,
+    .beautypress-call-to-action-section.beautypress-version-4 .beautypress-call-to-action-content,
+    .beautypress-call-to-action-section.beautypress-version-5 .beautypress-call-to-action-content {
+        width: 100%;
+    }
+    .beautypress-content-headinig h2,
+    .beautypress-content-headinig h3 {
+        font-size: 2.571em;
+    }
+    /* comming soon */
+    .beautypress-comming-soon-content {
+        width: 100%;
+    }
+    .beautypress-comming-soon-content.center-content {
+        width: 100%;
+    }
+    .beautypress-comming-soon-section.beautypress-version-2 .beautypress-comming-soon-text h2,
+    .beautypress-comming-soon-section.beautypress-version-2 .beautypress-comming-soon-text h3 {
+        font-size: 2.286em;
+    }
+    .beautypress-comming-soon-section.beautypress-version-2 .beautypress-subscribe-wraper {
+        width: 100%;
+    }
+    /* faq */
+    .beautypress-accordion {
+        margin: 0 0 30px;
+    }
+    /* element footer */
+    .beautypress-single-footer-v2 {
+        margin: 0 0 30px;
+    }
+    .beautypress-back-to-top-wraper.beautypress-version-4 {
+        bottom: 90px;
+    }
+    .beautypress-single-footer-details {
+        margin: 0 0 30px;
+    }
+    /* pricing html */
+    .beautypress-pricing-table-section.beautypress-version-6 .beautypress-beauty-product-hover-content {
+        bottom: 6px;
+    }
+    .beautypress-single-pricing-table-txt {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    .beautypress-single-new-pricing-wraper {
+        -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .beautypress-single-new-pricing.beautypress-pricing-header,
+    .beautypress-single-new-pricing.beautypress-pricing-content,
+    .beautypress-single-new-pricing.beautypress-pricing-footer {
+        padding: 20px;
+    }
+    .beautypress-single-new-pricing.beautypress-pricing-content {
+        grid-gap: 10px;
+    }
+    /* sponsor */
+    .beautypress-clients-wraper.no-slider .beautypress-clients-group {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .beautypress-partner-text-content.beautypress-version-2 {
+        margin: 30px 0 0;
+    }
+    /* team */
+    .beautypress-team-group-v3 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .beautypress-team-group-v3 .beautypress-team-col-v3 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+        flex: 1 0 100%;
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .beautypress-single-team-slider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .beautypress-team-content-v4 {
+        padding: 0 0 30px;
+    }
+    /* menu skew */
+    .menu-skew {
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+        will-change: unset;
+    }
+    .menu-skew.swingInX {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform-origin: unset;
+        transform-origin: unset;
+    }
+    .menu-skew.swingOutX {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform-origin: unset;
+        transform-origin: unset;
+    }
+    .beautypress-header-section.navbar-fixed {
+        -webkit-perspective: none !important;
+        perspective: none !important;
+        -webkit-transform-style: unset !important;
+        transform-style: unset !important;
+    }
+    .beautypress-main-header nav li a:before {
+        display: none;
+    }
+    /* product-details.html */
+    .beautypress-woocommerce-tabs .nav-tabs li a {
+        padding: 16px 15px;
+    }
+    .beautypress-add-to-chart-form .w-quantity-btn,
+    .beautypress-add-to-chart-form .beautypress-wishlist {
+        margin: 15px 0;
+    }
+    .beautypress-add-to-chart-form,
+    .beautypress-add-to-chart-form form {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .beautypress-add-to-chart-form .beautypress-wishlist {
+        margin: 0;
+    }
+    /* portfolio-single.html */
+    .beautypress-next-prev-wraper {
+        margin: 30px 0;
+    }
+    /* cart.html */
+    .beautypress-cart table thead {
+        display: none;
+    }
+    .beautypress-cart table.shop_table td {
+        display: block;
+        text-align: center;
+    }
+    .beautypress-cart tr.cart_item:nth-child(odd) {
+        background-color: #f5f5f5;
+    }
+    .beautypress-cart .product-quantity .beautypress_input_number {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .beautypress-cart .coupon {
+        width: 100%;
+    }
+    .beautypress-cart .coupon input[type="submit"] {
+        padding: 0 25px;
+    }
+    .beautypress-cart .cart-collaterals {
+        width: 100%;
+        float: none;
+        margin: 30px 0 0 0;
+    }
+    .beautypress-cart .wc-proceed-to-checkout input[type="submit"],
+    .beautypress-cart .wc-proceed-to-checkout a.checkout-button.button.alt {
+        padding: 18px 20px;
+        font-size: .8em;
+    }
+    .beautypress-cart table.shop_table th {
+        padding: 17px 10px;
+    }
+    .beautypress-new-header.xs-extra-css .xs_nav-portrait {
+        height: 88px;
+    }
+    .beautypress-new-header.xs-extra-css .xs_nav-portrait .nav-toggle {
+        transform: translateY(-50%);
+    }
+    .beautypress-extra-css.beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo {
+        max-width: none;
+        width: auto;
+        height: auto;
+        min-height: 100%;
+        padding: 17px;
+    }
+    .theme-switcher,
+    .customNavigation {
+        display: none;
+    }
+    .beautypress-header-section.beautypress-header-version-4 .nav-header .xs-nav-logo {
+        display: block;
+        float: left;
+        padding: 6px 0;
+    }
+    .beautypress-header-section.beautypress-header-version-4 .nav-header {
+        width: 100%;
+    }
+    .beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo {
+        max-width: 79px;
+    }
+    .beautypress-version-2.beautypress-logo:before {
+        height: 135px;
+    }
+    .beautypress-extra-css.beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo {
+        width: 120px;
+    }
+}
+
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+    body {
+        /*background-color: red;*/
+    }
+    .beautypress-new-header .xs_nav_2 .nav-search {
+        display: none;
+    }
+    .xs-btn {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+    body {
+        /*background-color: tomato;*/
+    }
+    /* header */
+    .beautypress-extra-css .beautypress-main-header nav li a {
+        padding: 12px 15px 12px 26px;
+    }
+    .beautypress-logo {
+        top: 62px;
+    }
+    .beautypress-logo img {
+        height: 45px;
+    }
+    .xs_nav-portrait .megamenu-panel {
+        position: relative;
+        z-index: 1;
+    }
+    /* new about text */
+    .beautypress-new-about-text-gruop .beautypress-sub-heading.beautypress-watermark-title h2 {
+        font-size: 2.5em;
+    }
+    /* beautypress simple text */
+    .beautypress-simple-text.beautypress-version-2 .beautypress-spilit-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .beautypress-simple-text.beautypress-version-2 .beautypress-spilit-container .beautypress-icon-with-text {
+        margin: 0 0 30px;
+    }
+    /* beautypress btn */
+    .beautypress-btn {
+        padding: 10px 16px;
+        font-size: .9em;
+    }
+    /* gallery */
+    .beautypress-portfolio-nav ul li a:before {
+        display: none;
+    }
+    .beautypress-portfolio-nav ul#filters li {
+        margin: 0 29px 15px 0;
+    }
+    /* partnres */
+    .beautypress-sub-heading h2 {
+        font-size: 2.057em;
+    }
+    /* index version 2 */
+    .beautypress-welcome-section.beautypress-welcome-version-2 .beautypress-welcome-wraper {
+        padding: 30px 15px 0;
+    }
+    /* menu skew */
+    .menu-skew {
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+        will-change: unset;
+    }
+    .menu-skew.swingInX {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform-origin: unset;
+        transform-origin: unset;
+    }
+    .menu-skew.swingOutX {
+        -webkit-animation-name: none;
+        animation-name: none;
+        -webkit-transform-origin: unset;
+        transform-origin: unset;
+    }
+    .beautypress-header-section.navbar-fixed {
+        -webkit-perspective: none !important;
+        perspective: none !important;
+        -webkit-transform-style: unset !important;
+        transform-style: unset !important;
+    }
+    .beautypress-main-header nav li a:before {
+        display: none;
+    }
+    .beautypress-new-header .xs_nav_2 .nav-search {
+        display: none;
+    }
+    .beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo {
+        max-width: 90px;
+    }
+}
