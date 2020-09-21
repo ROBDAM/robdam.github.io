@@ -1,0 +1,123 @@
+
+.tituloYsubtitulo{
+color:black;
+text-align: center;
+margin-top: 50px;
+animation-duration: 3s;  
+animation-name:desplazamiento; 
+}
+
+@keyframes desplazamiento{
+    0%{
+        margin-left: 0px;
+        transform: rotate(20deg);
+    }
+
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+}
+.boton{
+    text-align: center;
+    margin-left: 30rem;
+    margin-top: 3rem; 
+}
+.mensaje1 , .mensaje2, .mensaje3, .mensaje4{
+    background-color: brown;
+    color:#ffffff;
+}
+.creditos{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    color: black;
+}
+.nombre{
+    color:black;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+.foto{
+    display:block;
+    margin:auto;
+    /* margin-left: 52rem; */
+    animation: rotate 3s infinite;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    0%, 100% {
+    transform: rotate(10deg);
+    }
+    50% {
+    transform: rotate(-10deg);
+    }
+}
+
+
+/* PAGINA UBER */
+.bg-light {
+    background-color: black !important;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: white;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    border-radius: 20rem;
+    border-color: black;
+}
+.boton-idioma {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.menu{
+    border-radius:20rem ;
+    margin: 9px;
+    background-color: black;
+    border: none;
+}
+.registrate{
+    border-radius:57px;
+    margin: 11px;
+}
+
+.navbar{
+    background-color: #fff;
+}
+/* link con efecto */
+ul#ejm2 li a{
+    position: relative;
+    font-weight:bold;
+    color:black;
+    margin: 0px 15px;
+}
+ul#ejm2 li a:after{
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color:black;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);        
+}
+ul#ejm2 li a:hover:after{
+    opacity:1;
+    transform: translateY(15px)
+}
+
+

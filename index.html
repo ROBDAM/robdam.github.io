@@ -1,5 +1,224 @@
-<html>
-<body>
-<h1>hola mundo</h1>
-</body>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Damian Calderón</title>
+        <link rel="icon" type="image/x-icon" href="damianICO.jpeg"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+
+            
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    }
+                    else{
+                        enviarForma();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+                });
+            }, false);
+            })();
+        </script>
+        
+        
+         <script type="text/javascript">
+                       
+             function calcularTotalGastos(){
+                var ingresos = document.getElementById("ingresosID").value
+                var egresos = document.getElementById("egresosID").value
+                var totalGastos = ingresos - egresos;
+                document.getElementById("totalgastosID").value = totalGastos;
+             }
+
+             function enviarForma(){
+                alert("Su solicitud fue recibida exitosamente.");
+             }
+
+         </script>   
+        
+    </head>
+
+    <body>
+        <div class="col-md-12">
+            <h1 class="tituloYsubtitulo">Solicitud de Crédito</h1>
+            <h3 class="tituloYsubtitulo">Por favor ingresar la información solicitada</h3>
+        </div>
+
+        <br>
+        <br>
+
+        <style>
+             body{
+           background-color: green;
+            }
+        </style>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="needs-validation" novalidate>
+
+                        <div class="col-12" style="background-color: lightgreen;">
+                            <h1>Datos Personales</h1>
+                            <div class="form-group row">
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Nombres</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="nombresID" placeholder="Ingrese sus nombres" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Apellidos</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="apellidosID" placeholder="Ingrese sus apellidos" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                              <label for="inputEmail4" class="col-sm-2 col-form-label">Tipo de documento</label>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <select class="custom-select" required>
+                                            <option value="">Selecciona un documento</option>
+                                            <option value="1">CC</option>
+                                            <option value="2">NIT</option>
+                                            <option value="3">Pasaporte</option>
+                                        </select>
+                                    </div>
+                                    <div class="invalid-feedback">Example invalid custom select feedback</div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Número de documento</label>
+                                <div class="col-sm-4">
+                                    <input type="number" class="form-control" id="numberoDocumentoID" placeholder="Ingrese su número de documento" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Dirección de residencia</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="direccionID" placeholder="Ingrese su dirección de residencia" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Fecha de nacimiento</label>
+                                <div class="col-sm-3">
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-calendar" style="font-size:24px"value="" required></i></div>
+                                        </div>
+                                        <input type="date" class="form-control" id="user_date" value="" required  onchange="javascript:calcularEdad();"> 
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Correo Electrónico</label>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" id="emailID" placeholder="Ingrese su correo electrónico" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Número Celular</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="celularID" placeholder="Ingrese su número celular" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">   
+                                <label for="inputEmail4" class="col-sm-2 col-form-label">Número Telefono</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="telefonoID" placeholder="Ingrese su número de telefono" value="" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                         <div class="col-12" style="background-color: lightgreen;">
+                             <h1>Información Financiera</h1>
+
+                            <div class="form-group row">
+                                <label for="validationServer03" class="col-sm-2 col-form-label">Ingresos</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="ingresosID" placeholder="Ingresos" value="" required onchange="javascript:calcularTotalGastos()">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="validationServer04" class="col-sm-2 col-form-label">Egresos</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="egresosID" placeholder="Egresos" value="" required onchange="javascript:calcularTotalGastos()">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="validationServer05" class="col-sm-2 col-form-label">Capital</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="capitalID" placeholder="Capital" value="" required>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="validationServer05" class="col-sm-2 col-form-label">Total de gastos</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="totalgastosID" placeholder="Total de gastos" value="" disabled>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="validationServer05" class="col-sm-2 col-form-label">Cantidad a prestar</label>
+                                <div class="col-sm-3">
+                                    <input type="number" class="form-control" id="cantidadID" placeholder="Cantidad a prestar" value="" required>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                           
+                        <button class="btn btn-primary" type="submit" onsubmit="javascript:enviarForma()">Enviar formulario</button> 
+                    </form>    
+                </div>               
+            </div>        
+        </div>
+
+        <div class="col-12">
+            <h3 class="creditos">Realizado por:</h3>
+            <img src="damian.jpeg" class="foto">
+            <h4 class="nombre">Damian Calderón Avila</h4>
+            <h5 class="nombre">Programación web grupo 30104</h5>
+        </div>
+     
+
+       
+      
+          
+       
+        
+
+   
+       
+
+    </body>
 </html>
+
+
+
+                        
